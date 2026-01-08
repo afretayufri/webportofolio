@@ -367,7 +367,7 @@ background-clip: text;        /* properti standar modern */
     );
     transform: translateX(-100%);
     transition: 0.6s;
-    pointer-events: aut; /* penting biar hover tidak blok klik */
+    pointer-events: none; /* penting biar hover tidak blok klik */
 }
 
 .contact-item:hover::before {
