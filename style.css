@@ -311,7 +311,8 @@ h2::after {
     font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(90deg, #7f7cff, #ff8fdc);
-    -webkit-background-clip: text;
+   -webkit-background-clip: text; /* untuk browser lama yang butuh prefix */
+background-clip: text;        /* properti standar modern */
     -webkit-text-fill-color: transparent;
 }
 
